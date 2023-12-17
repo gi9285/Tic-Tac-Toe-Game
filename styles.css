@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    background-color: #1b4758c9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.container h1{
+    margin-top: 5vmin ;
+    font-size: 5vmin;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+.game-container{
+    width: 50vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vmin;
+    font-size: 10vmin;
+    flex-wrap: wrap;
+    margin-top: 5vmin;
+}
+.game-container .box{
+    height: 13vmin;
+    width: 13vmin;
+    background-color: #da7a62d6;
+    box-shadow: 1px 2px 5px black;
+    gap: 1.2;
+    text-align: center;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.767) ;
+    border-radius: 1vmin;
+
+}
+.game-container .color-o{
+    color: black;
+}
+
+.disable{
+    pointer-events: none;
+}
+
+#new-game{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 3vmin;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5vmin;
+}
+.msg{
+    background-color: rgb(10, 113, 71);
+    color: white;
+    font-size: 3vmin;
+    padding: 10px;
+    margin-top: 5vmin;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+
+.container .developer-name{
+    font-size: 3vmin;
+    font-weight: 800;
+    align-self: end;
+    margin: 10vmin 5vmin 0 0;
+    color: rgb(0 255 251 / 65%);
+    text-shadow: -5px 4px 9px rgba(0, 0, 0, 0.8);
+}
